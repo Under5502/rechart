@@ -1,0 +1,29 @@
+.exchange-flow-chart {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+  .tabs {
+    display: flex;
+    margin-bottom: 20px;
+
+    .tab {
+      padding: 10px 20px;
+      border-radius: 20px;
+      background-color: #f0f8ff;
+      border: none;
+      cursor: pointer;
+      margin-right: 10px;
+      font-size: 14px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+
+      &.active,
+      &:hover {
+        background-color: #6fe1d3;
+        color: #ffffff;
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.chart-container {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px #ddd;
+}
+
+.tab-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  .tab-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background: #eee;
+    color: #333;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s;
+
+    &.active {
+      background: #3ce0c4;
+      color: white;
+    }
+  }
+}
+
+.close-btn {
+  cursor: pointer;
+  margin-bottom: -3px;
+}
+
+.exchange-filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+
+  .exchange-tag {
+    background: #ccc;
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+}
